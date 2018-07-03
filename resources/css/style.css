@@ -58,6 +58,38 @@ div {
   width: 630px;
 }
 
+.main-story .image-content {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  height: 300px;
+}
+
+.story-content {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
+}
+
 .column.medium {
   width: 300px;
 }
