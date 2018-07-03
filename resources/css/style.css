@@ -47,8 +47,8 @@ a {
 .content {
   display: flex;
   width: auto;
-  padding-top: 116px;
-  margin: 0px auto 80px auto;
+  padding-top: 90px;
+  margin: 0px auto 80px 20px;
 }
 
 div {
