@@ -4,6 +4,8 @@ header {
   position: fixed;
   align-items: center;
   width: 100%;
+  height: 80px;
+  z-index: 1;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -40,12 +42,12 @@ a {
 .content {
   display: flex;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 116px;
   margin: 0 auto 80px auto;
 }
 
 div {
-  border: 1px solid black;
+  display: block;
 }
 
 .column {
@@ -76,6 +78,22 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .story-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .fall-cancelled.image-content {
