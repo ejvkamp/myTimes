@@ -34,3 +34,31 @@ nav span {
 a {
   color: black;
 }
+
+.content {
+  display: flex;
+  width: 100%;
+  padding-top: 100px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small  {
+  width: 240px;
+}
