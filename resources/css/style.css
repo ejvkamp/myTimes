@@ -41,7 +41,7 @@ a {
 
 .content {
   display: flex;
-  width: 100%;
+  width: auto;
   padding-top: 116px;
   margin: 0 auto 80px auto;
 }
@@ -137,4 +137,31 @@ div {
 
 .bite span {
   padding-left: 11px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
