@@ -14,9 +14,9 @@ header {
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
+  width: 100%;
 }
-
 
 header nav {
   padding-right: 40px;
